@@ -18,17 +18,17 @@ const Body = () => {
             element: <Dashboard />
         },
         {
-            path: '/vechiles',
+            path: '/vehicles',
             element: <Vechicles />
         },
         {
-            path: '/employee',
+            path: '/employees',
             element: <Employees />
         },
 
     ])
   return (
-    <div>
+    <div className=''>
         <Navbar />
     <RouterProvider router={appRouter} />
   </div>  )

@@ -4,11 +4,10 @@ const Employees = () => {
   return (
     <section>
       <div>
-        <h1 className='text-secondary font-medium mt-10 mx-36 font-poppins text-5xl'>Employees
+        <h1 className='text-secondary font-medium lg:mt-10 lg:mx-36 md:mx-8 font-poppins lg:text-5xl text-3xl mt-5 mx-12'>Employees
         </h1>
 
-
-        <div className="lg:mx-36 md:mx-7 mx-8 h-screen  lg:-mt-48 -mt-28 flex items-center justify-center ">
+        <div className="lg:mx-36 md:mx-7 mx-8 h-screen  lg:-mt-64 md:-mt-40 -mt-28 flex items-center justify-center ">
           <div className="w-full border border-slate-200 rounded-xl overflow-x-auto">
             <table className="w-full divide-y divide-gray-400 ">
               <thead className="bg-primary text-secondary font-poppins font-semibold text-xs overflow-hidden">
@@ -41,15 +40,12 @@ const Employees = () => {
                   <td className="lg:px-4 md:px-2 px-4 py-3">9669600288</td>
                   <td className="lg:px-4 md:px-2 px-4 py-3">Plot No. 145/554, Old Town...</td>
                   <td className="lg:px-4 md:px-2 px-4 py-3">05</td>
-
                 </tr>
               </tbody>
             </table>
           </div>
-
         </div>
       </div>
-
     </section>
   )
 }
